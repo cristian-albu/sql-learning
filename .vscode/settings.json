@@ -1,0 +1,22 @@
+{
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "local",
+      "username": "postgres",
+      "database": "second_database"
+    },
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "mario-db-1",
+      "database": "first_database",
+      "username": "postgres"
+    }
+  ]
+}
